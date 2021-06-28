@@ -15,12 +15,14 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: url(https://images.hdqwalls.com/wallpapers/tesla-cybertruck-4k2019-17.jpg);
+  /* background: url(https://images.hdqwalls.com/wallpapers/tesla-cybertruck-4k2019-17.jpg); */
+  background: #111;
   background-size: cover;
   background-position: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 460px;
 }
 
 .banner h2 {
@@ -109,13 +111,6 @@ header.sticky ul li a {
   color: #111;
 }
 
-/* .about {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 90vh;
-} */
-
 .heading {
   width: 100%;
   text-align: center;
@@ -150,9 +145,9 @@ header.sticky ul li a {
   font-size: 18px;
 }
 
-/* .about .content img {
-  margin-left: 350px;
-} */
+.about {
+  min-width: 460px;
+}
 
 img {
   max-width: 100%;
@@ -160,6 +155,7 @@ img {
 
 .services {
   background: black;
+  min-width: 460px;
 }
 
 .heading.white {
@@ -218,6 +214,7 @@ img {
 
 .testimonial {
   background: #f7f7f7;
+  min-width: 460px;
 }
 
 .testimonial .content {
@@ -263,6 +260,7 @@ img {
   /* background: cover; */
   background-size: cover;
   background-position: right;
+  min-width: 460px;
 }
 
 .hobbies .content {
@@ -332,6 +330,7 @@ img {
 
 .contact {
   background: #111;
+  min-width: 460px;
 }
 
 .contactInfo h3 {
