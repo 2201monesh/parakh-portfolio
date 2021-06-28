@@ -15,14 +15,13 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  /* background: url(https://images.hdqwalls.com/wallpapers/tesla-cybertruck-4k2019-17.jpg); */
-  background: #111;
+  background: url(https://images.hdqwalls.com/wallpapers/tesla-cybertruck-4k2019-17.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 460px;
+  min-width: 500px;
 }
 
 .banner h2 {
@@ -146,7 +145,7 @@ header.sticky ul li a {
 }
 
 .about {
-  min-width: 460px;
+  min-width: 500px;
 }
 
 img {
@@ -155,7 +154,7 @@ img {
 
 .services {
   background: black;
-  min-width: 460px;
+  min-width: 500px;
 }
 
 .heading.white {
@@ -214,7 +213,7 @@ img {
 
 .testimonial {
   background: #f7f7f7;
-  min-width: 460px;
+  min-width: 500px;
 }
 
 .testimonial .content {
@@ -260,7 +259,7 @@ img {
   /* background: cover; */
   background-size: cover;
   background-position: right;
-  min-width: 460px;
+  min-width: 500px;
 }
 
 .hobbies .content {
@@ -330,7 +329,7 @@ img {
 
 .contact {
   background: #111;
-  min-width: 460px;
+  min-width: 500px;
 }
 
 .contactInfo h3 {
@@ -492,10 +491,10 @@ img {
 
   .banner {
     padding: 150px 50px 100px;
-    /* background: url(https://tractionlife.com/wp-content/uploads/2020/06/tesla-cybertruck-redesign-Khyzyl-Saleem-front-look-700x438.jpg);
+    background: url(https://4kwallpapers.com/images/wallpapers/tesla-cybertruck-concept-cars-720x1280-882.jpg);
     background-size: cover;
     background-position: right;
-    min-height: 100vh; */
+    min-height: 100vh;
   }
 
   .banner h2 {
@@ -564,5 +563,10 @@ img {
 
   section {
     padding: 100px 20px;
+  }
+
+  .about .content .img {
+    margin-left: 130px;
+    margin-top: 40px;
   }
 }
