@@ -493,10 +493,10 @@ img {
 
   .banner {
     padding: 150px 50px 100px;
-    background: url(https://tractionlife.com/wp-content/uploads/2020/06/tesla-cybertruck-redesign-Khyzyl-Saleem-front-look-700x438.jpg);
+    /* background: url(https://tractionlife.com/wp-content/uploads/2020/06/tesla-cybertruck-redesign-Khyzyl-Saleem-front-look-700x438.jpg);
     background-size: cover;
     background-position: right;
-    min-height: 100vh;
+    min-height: 100vh; */
   }
 
   .banner h2 {
