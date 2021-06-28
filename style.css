@@ -148,6 +148,10 @@ header.sticky ul li a {
   min-width: 500px;
 }
 
+.about .content img {
+  margin-left: 350px;
+}
+
 img {
   max-width: 100%;
 }
