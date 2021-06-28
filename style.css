@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 section {
   padding: 100px;
 }
@@ -21,7 +25,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 500px;
+  min-width: 100%;
 }
 
 .banner h2 {
@@ -145,7 +149,7 @@ header.sticky ul li a {
 }
 
 .about {
-  min-width: 500px;
+  min-width: 100%;
 }
 
 .about .content img {
@@ -158,7 +162,7 @@ img {
 
 .services {
   background: black;
-  min-width: 500px;
+  min-width: 100%;
 }
 
 .heading.white {
@@ -217,7 +221,7 @@ img {
 
 .testimonial {
   background: #f7f7f7;
-  min-width: 500px;
+  min-width: 100%;
 }
 
 .testimonial .content {
@@ -263,7 +267,7 @@ img {
   /* background: cover; */
   background-size: cover;
   background-position: right;
-  min-width: 500px;
+  min-width: 100%;
 }
 
 .hobbies .content {
@@ -333,7 +337,7 @@ img {
 
 .contact {
   background: #111;
-  min-width: 500px;
+  min-width: 100%;
 }
 
 .contactInfo h3 {
@@ -570,7 +574,7 @@ img {
   }
 
   .about .content .img {
-    margin-left: 130px;
+    margin-left: 50px;
     margin-top: 40px;
   }
 }
