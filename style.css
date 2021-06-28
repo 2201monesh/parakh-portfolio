@@ -109,12 +109,12 @@ header.sticky ul li a {
   color: #111;
 }
 
-.about {
+/* .about {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   height: 90vh;
-}
+} */
 
 .heading {
   width: 100%;
@@ -150,9 +150,9 @@ header.sticky ul li a {
   font-size: 18px;
 }
 
-.about .content img {
+/* .about .content img {
   margin-left: 350px;
-}
+} */
 
 img {
   max-width: 100%;
